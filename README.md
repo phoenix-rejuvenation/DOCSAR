@@ -95,6 +95,7 @@ Several types of blocks can be added to the DOCSAR blockchain:
   "BlockIssuerID": "string",
   "NewVerifiedBlockID" : "string"
 }
+```
 ## Grant Levels
 
 DOCSAR uses a system of grant levels to control user permissions:
