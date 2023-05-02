@@ -62,7 +62,7 @@ Several types of blocks can be added to the DOCSAR blockchain:
       "Chemical": "string"
     },
     "SafetyNote": "string",
-    "ToxicityIndex". "number"
+    "ToxicityIndex": "number"
   }
 }
 ```
