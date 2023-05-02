@@ -15,7 +15,7 @@ DOCSAR is a blockchain-based platform designed to democratize access to chemical
 Several types of blocks can be added to the DOCSAR blockchain:
 
 1. **User Block**: Contains user ID, public key, contact information (protocol and address), and grant level. The block schema is as follows:
-
+```json
 {
   "UserID": "string",
   "PublicKey": "string",
@@ -25,9 +25,9 @@ Several types of blocks can be added to the DOCSAR blockchain:
   },
   "Grant": "string"
 }
-
+```
 2. **Points Definition Block**: Issued by the supreme account, it defines the number of points associated with each action type.
-
+```json
 {
   "BlockIssuerID": "string",
   "ActionTypePoints": [
@@ -37,18 +37,18 @@ Several types of blocks can be added to the DOCSAR blockchain:
     }
   ]
 }
-
+```
 3. **Transaction Block**: Records the transfer of points between users.
-
+```json
 {
   "SenderUserID": "string",
   "ReceiverUserID": "string",
   "Points": "float",
   "Timestamp": "string"
 }
-
+```
 4. **Chemical Substance Definition Block**: Contains information about a chemical substance.
-
+```json
 {
   "BlockIssuerID": "string",
   "SubstanceID": "string",
@@ -61,13 +61,13 @@ Several types of blocks can be added to the DOCSAR blockchain:
       "Physical": "string",
       "Chemical": "string"
     },
-    "SafetyInformation": "string"
-  },
-  "Verified": "boolean"
+    "SafetyNote": "string",
+    "ToxicityIndex". "number"
+  }
 }
-
+```
 5. **Chemical Reaction Definition Block**: Contains information about a chemical reaction.
-
+```json
 {
   "BlockIssuerID": "string",
   "ReactionID": "string",
@@ -86,10 +86,15 @@ Several types of blocks can be added to the DOCSAR blockchain:
     ],
     "Conditions": "string",
     "Mechanism": "string"
-  },
-  "Verified": "boolean"
+  }
 }
-
+```
+5. **Chemical Reaction/Substance Verification Block**: Contains information about a chemical reaction.
+```json
+{
+  "BlockIssuerID": "string",
+  "NewVerifiedBlockID" : "string"
+}
 ## Grant Levels
 
 DOCSAR uses a system of grant levels to control user permissions:
