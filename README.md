@@ -2,11 +2,13 @@
 
 DOCSAR is a blockchain-based platform designed to democratize access to chemical knowledge. It allows users to store and share comprehensive data on chemical substances and reactions, facilitating machine learning models and accelerating research in medicine, biotechnology, and material design.
 
+Note: Links for the motivation behind this project: https://pubs.acs.org/doi/10.1021/acs.jcim.1c01140
+
 ## System Components
 
 1. **User Management**: Every user in the system is represented as a unique ID, a pair of keys (public and private), a contact address, a contact protocol, and a set of grants that define their permissions. The contact protocol and address are flexible, future-proofing the platform against changes in communication technology.
 
-2. **Points System**: The system incentivizes user contributions via a points system. Actions performed by users, such as adding substance and reaction definitions, and verifying existing definitions, are associated with points. These points can be transferred between users in transaction blocks. The points associated with each action are defined globally by the supreme (Alpha) account in a Points Definition Block.
+2. **Points System**: The system incentivizes user contributions via a points system. Actions performed by users, such as adding substance and reaction definitions, and verifying existing definitions, are associated with points. These points can be transferred between users in transaction blocks. The points associated with each action are defined globally by the supreme account in a Points Definition Block.
 
 3. **Chemical Substance and Reaction Definitions**: Users can add blocks to the blockchain containing detailed definitions of chemical substances and reactions. These definitions are not limited to basic information such as IUPAC names, molecular formulas, molecular weights, but can also include extensive data on structural information, properties, reaction conditions, reaction mechanisms, and more.
 
