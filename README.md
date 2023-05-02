@@ -89,11 +89,11 @@ Several types of blocks can be added to the DOCSAR blockchain:
   }
 }
 ```
-5. **Chemical Reaction/Substance Verification Block**: Contains information about a chemical reaction.
+5. **Chemical Reaction/Substance Verification Block**: Created once per cemical substance or reaction.
 ```json
 {
   "BlockIssuerID": "string",
-  "NewVerifiedBlockID" : "string"
+  "NowVerifiedBlockID" : "string"
 }
 ```
 ## Grant Levels
