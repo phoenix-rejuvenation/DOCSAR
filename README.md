@@ -126,6 +126,25 @@ it can perform all actions, including defining the points associated with each a
 
     - Add chemical substance and reaction definition blocks but cannot verify them.
     - They cannot erase or update the definition of a chemical substance or reaction by adding an update block.
+## TODO : 
+
+    **Cryptographic Hashing**: We need a secure hash function to ensure the integrity of data in the blockchain. Cryptographic hashes are a fundamental part of the blockchain's immutability.
+
+    **Digital Signatures**: We need to implement a way to verify the authenticity of actions on the blockchain. This is usually done through a digital signature scheme, such as the Elliptic Curve Digital Signature Algorithm (ECDSA).
+
+    **Consensus Mechanism**: A critical part of any blockchain is the consensus mechanism. This is the method by which the network agrees on the validity of transactions and blocks. The most common are Proof of Work (PoW) and Proof of Stake (PoS), but there are many others. We'll need to decide which one is the most suitable for our project.
+
+    **Peer-to-Peer Networking**: Our nodes need to be able to communicate with each other, propagate new blocks, and synchronize the blockchain state. This typically involves a peer-to-peer network.
+
+   ** Block Validation**: When a new block is propagated to the network, nodes need to validate it by checking the block's and its transactions' compliance with the blockchain protocol rules.
+
+    **Points System Management**: Since our project has a points system (ie: DOCSAR coin), we'll need to implement a way to award, track, and transfer points between users.
+
+    **Access Control**: Given that our project has different levels of user privileges (grants), you'll need to implement an access control system to manage user permissions on the blockchain.
+
+    **Data Storage**: Efficient and secure data storage is crucial for our project, especially considering the chemical substance and reaction data. we'll need to design and implement a robust data model and storage mechanism.
+
+    **Security Measures**: Apart from the cryptographic techniques, we need to ensure the security of the blockchain network. This involves protection against various attacks such as Sybil attacks, 51% attacks, and more.
 
 ## Future Directions
 
