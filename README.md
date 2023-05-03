@@ -108,7 +108,7 @@ DOCSAR uses a system of grant levels to control user permissions:
 1. **Alpha**: The highest level of privilege. There is only one alpha account, and
 it can perform all actions, including defining the points associated with each action type.
 
-2. **Grant A**: Users with Grant A can:
+2. **Grant A**: Usually for Universitie and Organization Users with Grant A can:
 
     - Add blocks that attribute new grants to other users.
     - Downgrade the grant of another user, provided it's not Grant A.
@@ -116,13 +116,13 @@ it can perform all actions, including defining the points associated with each a
     - Erase or update definitions of chemical substances or reactions by adding an update block, even if they are verified.
     - Declare that another block is verified, provided the block contains a definition of a chemical substance or reaction. A hash of a document containing experiment results or an essay should be provided.
 
-3. **Grant B**: Users with Grant B can:
+3. **Grant B** Usually for verified researchers/academics : Users with Grant B can:
 
     - Add blocks that attribute Grant C to other users.
     - Add and verify chemical substance and reaction definition blocks.
     - They cannot erase or update the definition of a chemical substance or reaction by adding an update block.
 
-4. **Grant C**: Users with Grant C can:
+4. **Grant C** Usually for students and the public : Users with Grant C can:
 
     - Add chemical substance and reaction definition blocks but cannot verify them.
     - They cannot erase or update the definition of a chemical substance or reaction by adding an update block.
