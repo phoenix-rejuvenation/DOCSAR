@@ -6,7 +6,7 @@ Note: Links for the motivation behind this project: https://pubs.acs.org/doi/10.
 
 ## System Components
 
-1. **User Management**: Every user in the system is represented as a unique ID, a pair of keys (public and private), a contact address, a contact protocol, and a set of grants that define their permissions. The contact protocol and address are flexible, future-proofing the platform against changes in communication technology.
+1. **User Management**: User Management: Every user in the system is represented by a unique ID, a pair of keys (public and private), a contact address, a contact protocol, and a set of grants that define their permissions. The contact protocol and address are flexible, future-proofing the platform against changes in communication technology. This blockchain, due to the project's nature, supports account handover, which allows an account to be suspended and its activity history to be passed to a new account. This is typically done when an administrator of an organization changes and a new private key is needed. For this reason, only accounts with Grant A can be migrated.
 
 2. **Points System**: The system incentivizes user contributions via a points system. Actions performed by users, such as adding substance and reaction definitions, and verifying existing definitions, are associated with points. These points can be transferred between users in transaction blocks. The points associated with each action are defined globally by the supreme account in a Points Definition Block.
 
@@ -108,7 +108,7 @@ DOCSAR uses a system of grant levels to control user permissions:
 1. **Alpha**: The highest level of privilege. There is only one alpha account, and
 it can perform all actions, including defining the points associated with each action type.
 
-2. **Grant A**: Usually for Universitie and Organization Users with Grant A can:
+2. **Grant A**: Usually for Universities and Organization Users with Grant A can:
 
     - Add blocks that attribute new grants to other users.
     - Downgrade the grant of another user, provided it's not Grant A.
