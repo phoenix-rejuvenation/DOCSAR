@@ -134,7 +134,7 @@ it can perform all actions, including defining the points associated with each a
 4. **Peer-to-Peer Networking**: Our nodes need to be able to communicate with each other, propagate new blocks, and synchronize the blockchain state. This typically involves a peer-to-peer network.
 5. **Block Validation**: When a new block is propagated to the network, nodes need to validate it by checking the block's and its transactions' compliance with the blockchain protocol rules.
 6. **Points System Management**: Since our project has a points system (ie: DOCSAR coin), we'll need to implement a way to award, track, and transfer points between users.
-7. **Access Control**: Given that our project has different levels of user privileges (grants), you'll need to implement an access control system to manage user permissions on the blockchain.
+7. **Access Control**: Given that our project has different levels of user privileges (grants), we'll need to implement an access control system to manage user permissions on the blockchain.
 8. **Data Storage**: Efficient and secure data storage is crucial for our project, especially considering the chemical substance and reaction data. we'll need to design and implement a robust data model and storage mechanism.
 9. **Security Measures**: Apart from the cryptographic techniques, we need to ensure the security of the blockchain network. This involves protection against various attacks such as Sybil attacks, 51% attacks, and more.
 
