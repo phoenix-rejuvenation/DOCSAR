@@ -6,7 +6,7 @@ DOCSAR is an open-source blockchain-based platform that democratizes access to c
 
 DOCSAR is an open-source blockchain-based platform democratizing access to chemical knowledge, addressing monopolistic access by big institutions. Despite AI's potential in drug discovery, the lack of free chemical data has limited small research groups. DOCSAR uses blockchain to enable users to store and share chemical data, facilitating machine learning models and accelerating research in medicine, biotechnology, and material design. By providing access to anyone with an internet connection, DOCSAR fosters innovation and collaboration in chemical research.
 
-Link for the reasearch papper that is the initial motivation behind this project: https://pubs.acs.org/doi/10.1021/acs.jcim.1c01140
+Link for the reasearch papper that is the initial motivation behind this project: (Call for a Public Open Database of All Chemical Reactions)[https://pubs.acs.org/doi/10.1021/acs.jcim.1c01140]
 
 ## System Components
 
