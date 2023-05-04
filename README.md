@@ -4,11 +4,7 @@ DOCSAR is an open-source blockchain-based platform that democratizes access to c
 
 ## Motivation behind the project 
 
-Artificial intelligence has revolutionized drug discovery and design, and the amount of data that can be collected daily is staggering. However, the full potential of artificial intelligence and simulation models, as stated in reference papers, remains largely untapped, primarily due to the lack of free chemical knowledge which only private institutions have access to. In most cases, the limiting factor for small research groups has been the lack of chemical data.
-
-DOCSAR aims to overcome this challenge by leveraging blockchain technology, enabling users to store and share comprehensive data on chemical substances and reactions. The platform facilitates the creation of machine learning models and accelerates research in medicine, biotechnology, and material design.
-
-Small research groups have already demonstrated the potential of using artificial intelligence to train simulators that can predict drug interactions, given enough training data for chemical reactions relevant to a specific field. By providing access to chemical data to anyone with an internet connection, regardless of institutional affiliations, DOCSAR levels the playing field and fosters greater innovation and collaboration in the field of chemical research.
+DOCSAR is an open-source blockchain-based platform democratizing access to chemical knowledge, addressing monopolistic access by big institutions. Despite AI's potential in drug discovery, the lack of free chemical data has limited small research groups. DOCSAR uses blockchain to enable users to store and share chemical data, facilitating machine learning models and accelerating research in medicine, biotechnology, and material design. By providing access to anyone with an internet connection, DOCSAR fosters innovation and collaboration in chemical research.
 
 Note: Links for the motivation behind this project: https://pubs.acs.org/doi/10.1021/acs.jcim.1c01140
 
