@@ -1,6 +1,12 @@
 # DOCSAR: The Distributed Database of Chemical Substances and Reactions
 
-DOCSAR is a blockchain-based platform designed to democratize access to chemical knowledge. It allows users to store and share comprehensive data on chemical substances and reactions, facilitating machine learning models and accelerating research in medicine, biotechnology, and material design.
+DOCSAR is an open-source blockchain-based platform that democratizes access to chemical knowledge. The current monopolistic access to chemical databases by big institutions, such as big pharma, has become a major issue that needs to be addressed.
+
+Artificial intelligence has revolutionized the way we think about drug discovery and design. The amount of data that can be collected on a daily basis is staggering. But for the data to be useful, it must be accessible, and that's where DOCSAR comes in.
+
+By leveraging the power of blockchain technology, DOCSAR allows users to store and share comprehensive data on chemical substances and reactions. The platform facilitates the creation of machine learning models and accelerates research in medicine, biotechnology, and material design.
+
+Small research groups have already demonstrated the potential of using artificial intelligence to train simulators that can predict drug interactions, given enough training data for chemical reactions relevant to a specific field. DOCSAR aims to level the playing field and provide access to chemical data to anyone with an internet connection, regardless of institutional affiliations.
 
 Note: Links for the motivation behind this project: https://pubs.acs.org/doi/10.1021/acs.jcim.1c01140
 
